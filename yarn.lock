@@ -1780,6 +1780,13 @@
   dependencies:
     "@bufbuild/protobuf" "^1.10.0"
 
+"@livekit/protocol@1.42.2":
+  version "1.42.2"
+  resolved "https://registry.yarnpkg.com/@livekit/protocol/-/protocol-1.42.2.tgz#2932e2cc8f2100b49d3ce154a521cd26b2a95fe2"
+  integrity sha512-0jeCwoMJKcwsZICg5S6RZM4xhJoF78qMvQELjACJQn6/VB+jmiySQKOSELTXvPBVafHfEbMlqxUw2UR1jTXs2g==
+  dependencies:
+    "@bufbuild/protobuf" "^1.10.0"
+
 "@livekit/react-native-expo-plugin@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@livekit/react-native-expo-plugin/-/react-native-expo-plugin-1.0.1.tgz#8472299b1b399209463347ed27de7b0f743d700d"
@@ -5995,6 +6002,11 @@ jiti@^1.21.6:
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz"
   integrity sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==
 
+jose@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.1.0.tgz#96285365689d16f2845a353964d2284bf19f464c"
+  integrity sha512-TTQJyoEoKcC1lscpVDCSsVgYzUDg/0Bt3WE//WiTPK6uOCQC2KZS4MpugbMWt/zyjkopgZoXhZuCi00gLudfUA==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -6214,7 +6226,7 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-livekit-client@^2.11.4, livekit-client@^2.15.4:
+livekit-client@^2.11.4:
   version "2.15.4"
   resolved "https://registry.yarnpkg.com/livekit-client/-/livekit-client-2.15.4.tgz#a0f1577ba250a416a2990c539841ce5d9af1f84b"
   integrity sha512-DHNuCibSGX0xOxWvVK4VVpadNm1jtUQqU3HdDnoZYJ05/iO/DWzi1F7JPsnvY3RDw0eBeEz32KfcKtLq0kB/9w==
@@ -6222,6 +6234,22 @@ livekit-client@^2.11.4, livekit-client@^2.15.4:
     "@livekit/mutex" "1.1.1"
     "@livekit/protocol" "1.39.3"
     events "^3.3.0"
+    loglevel "^1.9.2"
+    sdp-transform "^2.15.0"
+    ts-debounce "^4.0.0"
+    tslib "2.8.1"
+    typed-emitter "^2.1.0"
+    webrtc-adapter "^9.0.1"
+
+livekit-client@^2.15.14:
+  version "2.15.14"
+  resolved "https://registry.yarnpkg.com/livekit-client/-/livekit-client-2.15.14.tgz#61fd0545c26cbd8011c14e94d155d0ce357221d0"
+  integrity sha512-q3QY1Md6+2l4LpV7OPSrKYbuMfMoEbcu+UaJL2e8Btrkh7R2wGJzWh8A852Stx4It1508IP9PK4q7U6trDzvYA==
+  dependencies:
+    "@livekit/mutex" "1.1.1"
+    "@livekit/protocol" "1.42.2"
+    events "^3.3.0"
+    jose "^6.1.0"
     loglevel "^1.9.2"
     sdp-transform "^2.15.0"
     ts-debounce "^4.0.0"
